@@ -1,0 +1,12 @@
+/types/**
+/node_modules/**
+/tmp/**
+/coverage/**
+/docs/**
+/jsdoc/**
+/templates/**
+/tests/bench/**
+/tests/fixtures/**
+/tests/performance/**
+/tmp/**
+!.eslintrc.js
