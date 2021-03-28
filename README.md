@@ -61,31 +61,27 @@ To see the other commands available just use your standard completion and you sh
 
 It should have a few "builtin" commands and two settings that will be printed to the console.
 
-Commands available:
+Commands available:  
 `shell`
-this will invoke a shell application and print its stdout. Additionally, it will also print the cmd and args used.
-
+this will invoke a shell application and print its stdout. Additionally, it will also print the cmd and args used.  
 ```vimL
 :TsToLuaPlugin shell ls -al
 ```
 
-`dump`
-this will print out whatever arguments are supplied.
-
+`dump`  
+this will print out whatever arguments are supplied.  
 ```vimL
 :TsToLuaPlugin dump 1 2 three four
 ```
 
-`not_implemented`
-this will just use the `nivm` api to print a little error message saying "not implemented".
-
+`not_implemented`  
+this will just use the `nivm` api to print a little error message saying "not implemented".  
 ```vimL
 :TsToLuaPlugin not_implemented
 ```
 
-`config_value_(one|two)`
-this will print the value of the config entry. You can override them using the `.setup()` method (below).
-
+`config_value_(one|two)`  
+this will print the value of the config entry. You can override them using the `.setup()` method (below).  
 ```vimL
 :TsToLuaPlugin config_value_one
 ```
